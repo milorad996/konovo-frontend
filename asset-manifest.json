@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/konovo-frontend/static/css/main.fada1253.css",
+    "main.js": "/konovo-frontend/static/js/main.f8242821.js",
+    "static/js/453.b01f7b68.chunk.js": "/konovo-frontend/static/js/453.b01f7b68.chunk.js",
+    "index.html": "/konovo-frontend/index.html",
+    "main.fada1253.css.map": "/konovo-frontend/static/css/main.fada1253.css.map",
+    "main.f8242821.js.map": "/konovo-frontend/static/js/main.f8242821.js.map",
+    "453.b01f7b68.chunk.js.map": "/konovo-frontend/static/js/453.b01f7b68.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fada1253.css",
+    "static/js/main.f8242821.js"
+  ]
+}
