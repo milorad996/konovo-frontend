@@ -1,0 +1,79 @@
+.products-page {
+    padding: 3rem 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f7f6;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+
+
+.filter-controls {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.filter-controls input {
+    padding: 0.5rem;
+    width: 200px;
+}
+
+.filter-controls button {
+    padding: 0.5rem 1rem;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.load-more-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.load-more-btn {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    background-color: #ee6920;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.load-more-btn:hover {
+    background-color: #be4c0e;
+}
+
+.load-more-btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+
+.filter-container {
+    margin-bottom: 3rem;
+}
