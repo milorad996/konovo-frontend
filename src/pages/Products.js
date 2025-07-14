@@ -16,7 +16,7 @@ function Products() {
 
     const [category, setCategory] = useState("");
     const [search, setSearch] = useState("");
-    const [loading, setLoading] = useState(false); // 👈 loading state
+    const [loading, setLoading] = useState(false);
 
     const uniqueCategories = [
         "Računarske komponente",
@@ -78,7 +78,6 @@ function Products() {
                 )}
             </div>
 
-            {/* UČITAJ JOŠ */}
             {currentPage < lastPage && (
                 <div className="load-more-container">
                     <button
